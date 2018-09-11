@@ -1,0 +1,86 @@
+Variabler
+
+For å utvite Hello World kan vi bruke noe som kalles en variabel.
+Variabler er navnt som inneholder forskjellige typer verdier, som tall, tekst, sannhet.
+Til å begynne med kan vi bruke noe som kalles en String.
+"String" inne holder tekst og vi kan gi en String til metoden System.out.println() istedenfor teksten i seg selv.
+Vi deklarerer(lager) en String variabel slik:
+
+String helloWorldTekst;
+
+Her er String typen og helloWorldTekst navnet til variabelen.
+Vi bruker også ikke stor bokstav for det første ordet i navnet, dette er bare slik det vanligvis blir gjort.
+Vi kan også gi String en verdi, slik:
+
+helloWorldTekst = "Hello World!";
+
+Nå inneholder denne variabelen helloWorldTekst akkuratt den samme teksten som vi ga til System.out.println() i det siste eksempelet.
+Vi kan også gjøre alt dette i samme linje:
+
+String helloWorldTekst = "Hello World!";
+
+Vi kan sette denne linjen inn i HelloWorld slik som dette:
+
+package pakke;
+
+public class HelloWorld { 
+
+	public static void main(String[] args) {
+	
+		String helloWorldTekst = "Hello World!";
+		
+		System.out.println("Hello World!");
+
+	}
+
+}
+
+Nå lager vi en variabel og gir den en verdi, men den blir framdeles ikke brukt.
+For å gjøre dette må vi gi helloWorldTekst som et parameter til System.out.println() slik som dette:
+
+System.out.println(helloWorldTekst);
+
+Du har kanskje lagt merke til at vi ikke bruker hermetegn rundt helloWorldTekst her.
+Det er siden det er en String(tekst) variabel som refererer til en verdi som allerede har hermetegn rundt seg.
+
+Når vi har oppdatert den linjen vil det se slik ut:
+
+package pakke;
+
+public class HelloWorld { 
+
+	public static void main(String[] args) {
+	
+		String helloWorldTekst = "Hello World!";
+		
+		System.out.println(helloWorldTekst);
+
+	}
+
+}
+
+Hvis du kjører dette igjen burde du få samme resultat som sist gang.
+Dette er ikke veldig spennende, men variabler er veldig praktiske.
+De kan holde på en verdi som blir brukt mange ganger, og du vil bare trenge å endre verdien på et sted for at alt som bruker verdien vil bruke den nye verdien.
+Det er også viktig å huske hvorfor det heter en variabel, du kan endre verdien.
+Etter du har skrevet ut teksten i helloWorldTekst kan du gi helloWorldTekst en ny verdi og skrive ut en ny linje.
+Slik som dette:
+
+package pakke;
+
+public class HelloWorld { 
+
+	public static void main(String[] args) {
+	
+		String helloWorldTekst = "Hello World!";
+		
+		System.out.println(helloWorldTekst);
+		
+		helloWorldTekst = "Bye World!";
+		
+		System.out.println(helloWorldTekst);
+
+	}
+
+}
+
