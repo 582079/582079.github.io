@@ -1,0 +1,8 @@
+Kommentarer
+
+Noe som kan hjelpe med å gjøre skrift mer klar er kommentarer i koden.
+Dette er tekst som bare er ment for mennesker og brukes til å forklare og merke kode for deg selv og andre.
+Du kan lage en ved å starte med //. All teksten til høyre for // på den linjen vil bli ignorert av maskinen.
+Hvis du vil lage en kommentar som går over flere linjer, begynner du med: /* og ender kommentaren med */.
+Det er viktig å bruke kommentarer siden du kan glemme hva en komplisert setning gjør, og hvis du samarbeider vil ikke 
+andre nødvendigvis være vant til din måte å gjøre ting på.

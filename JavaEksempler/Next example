@@ -14,7 +14,7 @@ Vi kan også gi String en verdi, slik:
 
 helloWorldTekst = "Hello World!";
 
-Nå inneholder denne variabelen helloWorldTekst akkuratt den samme teksten som vi ga til System.out.println() i det siste eksempelet.
+Nå inneholder denne variabelen helloWorldTekst akkuratt den samme teksten som vi ga til System.out.println() i det siste eksempelet.<br>
 Vi kan også gjøre alt dette i samme linje:
 
 String helloWorldTekst = "Hello World!";
